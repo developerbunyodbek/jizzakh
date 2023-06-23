@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jizzax</title>
+
+    <!-- LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@600&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- HEADER STARTED -->
+      <header class="header">
+        <div class="header-container container">
+          <a href="index.html" class="header-logo">Jizzax</a>
+          <div class="nav-btn">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pic" class="nav-link">Pictures</a>
+              </li>
+              <li class="nav-item">
+                <a href="#loc" class="nav-link">Location</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button class="dark-button" type="button">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
+              <div class="ball"></div>
+            </label>
+          </button>
+        </div>
+      </header>
+      <!-- HEADER ENDED -->
+
+      <!-- HERO STARTED -->
+      <div class="hero-slider" data-carousel>
+        <div
+          class="carousel-cell"
+          style="background-image: url(./images/slider2.jpg)"
+        >
+          <div class="overlay"></div>
+          <div class="inner">
+            <h2 class="title" data-aos="fade-down" data-aos-duration="1500">
+              Jizzaxga xush kelibsiz!
+            </h2>
+            <a href="#about" class="btn">Batafsil</a>
+          </div>
+        </div>
+
+        <div
+          class="carousel-cell"
+          style="background-image: url(./images/jizzax.jpg)"
+        >
+          <div class="overlay"></div>
+          <div class="inner">
+            <h2 class="title">Zomin Sanatoriyasi</h2>
+            <a href="#about" class="btn">Batafsil</a>
+          </div>
+        </div>
+
+        <div
+          class="carousel-cell"
+          style="background-image: url(./images/Aydar_Lake.jpg)"
+        >
+          <div class="overlay"></div>
+          <div class="inner">
+            <h2 class="title">Haydar ko'l</h2>
+            <a href="#about" class="btn">Batafsil</a>
+          </div>
+        </div>
+      </div>
+      <!-- HERO ENDED -->
+    </div>
+
+    <main class="main-content">
+      <!-- COUNTER STARTED -->
+      <div class="statistic">
+        <div class="statistic-container container">
+          <h2 class="about-title">Jizzax haqida qisqacha statistika</h2>
+          <span class="linee"></span>
+          <div class="statistic-wrapper">
+            <div class="statistic-content">
+              <h3 class="statistic-number">1 487 848+</h3>
+              <p class="statistic-info">Aholi</p>
+            </div>
+            <div class="statistic-content">
+              <h3 class="statistic-number">576+</h3>
+              <p class="statistic-info">Maktablar</p>
+            </div>
+            <div class="statistic-content">
+              <h3 class="statistic-number">195+</h3>
+              <p class="statistic-info">Mexmonxonalar</p>
+            </div>
+            <div class="statistic-content">
+              <h3 class="statistic-number">82+</h3>
+              <p class="statistic-info">Kollejlar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COUNTER ENDTED -->
+
+      <!-- ABOUT STARTED -->
+      <div class="about" id="about">
+        <div class="container">
+          <h2 class="about-title second">Jizzax haqida</h2>
+          <span class="linee"></span>
+          <div class="about-boxes">
+            <div class="about-box" data-aos="fade-right">
+              <img src="./images/baxmal.jpg" alt="rasm" class="about-image" />
+              <div class="about-texts">
+                <h3 class="about-texts-title">Baxmal tog' tizmasi</h3>
+                <p class="about-text">
+                  Tuman hududi, asosan, togʻ oldi tekisliklari va togʻlardan
+                  iborat. Baxmal tumanining jan. qismida Turkiston tizmasi va
+                  uning shimoli-gʻarbiy tarmogʻi — Molguzar togʻlari joylashgan
+                  (eng baland joyi 2621 m). Molguzar togʻlari bilan Turkiston
+                  tizmasi oraligʻida Sangzor vodiysi bor. qismida joylashgan.
+                </p>
+                <a
+                  href="https://uz.wikipedia.org/wiki/Baxmal_tumani"
+                  target="_blank"
+                  class="about-link"
+                  >Batafsil ma'lumot <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="about-box" data-aos="fade-up">
+              <div class="about-texts">
+                <h3 class="about-texts-title">Zomin sanatoriyasi</h3>
+                <p class="about-text">
+                  Zomin togʻ-oʻrmon davlat qoʻriqxonasi — Jizzax viloyatida
+                  joylashgan. Turkiston tizma toglari gʻarbiy qismining
+                  shimoliyyon bagʻrida, Koʻlsoy va Gʻoʻralassoy havzalarini
+                  ishgʻol etgan. Janubiy Tojikiston bilan chegaradosh. Maydoni
+                  15,5 ming ga, shundan 11,2 ming ga archa oʻrmonzorlari.
+                </p>
+                <a
+                  href="https://uzbekistan.travel/uz/o/Zomin-sanatoriysi/"
+                  target="_blank"
+                  class="about-link"
+                  >Batafsil ma'lumot <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+              <img
+                src="../images/jizzah-hero.jpg"
+                alt="rasm"
+                class="about-image"
+              />
+            </div>
+            <div class="about-box" data-aos="fade-down">
+              <img src="./images/nurata.jpg" alt="rasm" class="about-image" />
+              <div class="about-texts">
+                <h3 class="about-texts-title">Nurota qo'riqxonasi</h3>
+                <p class="about-text">
+                  Hayvonot olamining betakror tabiati va rang-barangligidan
+                  tashqari, sayyohlarni Nurota tizmasining o‘zi, qadimgi g‘or
+                  rasmlari, Iskandar Zulqarnaynning o‘zi ekkanligi taxmin
+                  qilinadigan Majrum soyi yaqinidagi ming yillik Sharqiy Biota
+                  daraxti, Fozilman ko‘li, ekzotik tog‘li qishloqlar.
+                </p>
+                <a
+                  href="https://uz.wikipedia.org/wiki/Nurota_davlat_qo%CA%BBriqxonasi"
+                  target="_blank"
+                  class="about-link"
+                  >Batafsil ma'lumot <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="about-box" data-aos="zoom-out-right">
+              <div class="about-texts">
+                <h3 class="about-texts-title">Jizzax somsasi</h3>
+                <p class="about-text">
+                  Mazali, varaqi va mazali Jizzax somsa nafaqat mamlakatimizda,
+                  balki butun Markaziy Osiyoda mashhurdir.“Jizzax somsa” – bu
+                  eng mashhur va sevimli taom bo‘lib, Jizzax viloyatining
+                  timsoli hamdir. Uning o‘ziga xos xususiyatidan yana biri – bu
+                  misli ko‘rilmagan o‘lchamidir. ishtaha!
+                </p>
+                <a
+                  href="https://uzbekistan.travel/uz/o/jizzax-somsa/"
+                  target="_blank"
+                  class="about-link"
+                  >Batafsil ma'lumot <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+              <img src="./images/somsa.jpg" alt="rasm" class="about-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT ENDED -->
+
+      <!-- PICTURES STARTED -->
+      <div class="pictures" id="pic" data-aos="flip-left">
+        <div class="container">
+          <h2 class="about-title third">Jizzax manzaralari</h2>
+          <span class="linee"></span>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/slider2.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slider-3.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/jizzax.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/jizzah-hero.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/rasm.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/nurata.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/Aydar_Lake.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/baxmal.jpg" alt="rasm" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/somsa.jpg" alt="rasm" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- PICTURES ENDED -->
+
+      <!-- TABS STARTED -->
+      <div class="tabs" data-aos="zoom-in-up">
+        <div class="container">
+          <div class="tabs-btn">
+            <button type="button" class="tab-btn active">Haydarko'l</button>
+            <button type="button" class="tab-btn">Baxmal</button>
+            <button type="button" class="tab-btn">Nurata</button>
+            <button type="button" class="tab-btn">Somsa</button>
+            <div class="line"></div>
+          </div>
+
+          <div class="tabs-wrapper">
+            <div class="tabs-div active" id="ac">
+              <img
+                src="./images/Aydar_Lake.jpg"
+                alt="rasm"
+                class="about-image"
+              />
+              <p class="about-text">
+                Haydarkoʻl (Haydar koʻli va Aydar koʻli deb ham nomlanadi) —
+                Nurota tizma togʻlarining shimoliy etagidagi koʻl. Haydarkoʻl
+                1960-yillar oxirida asosan Janubiy Qozogʻistonning Chordara suv
+                omboridan oqib kelgan ortiqcha suvlar hisobidan paydo boʻlgan.
+                Koʻl Jizzax va Navoiy viloyatlari hududida joylashgan.
+                Haydarkoʻl Shimoliy qirgʻoqlari Sharqiy Qizilqumga tutashadi.
+                Koʻlning uzunligi 159 km, eni 26 km. 2005-yilda Haydarkoʻlda
+                44,3 km³ suv boʻlgan. Hozirgi kunda koʻlning hajmi taxminan 3000
+                km² ni tashkil qiladi.
+              </p>
+            </div>
+            <div class="tabs-div" id="ac">
+              <img src="./images/baxmal.jpg" alt="rasm" class="about-image" />
+              <p class="about-text">
+                Tuman hududi, asosan, togʻ oldi tekisliklari va togʻlardan
+                iborat. Baxmal tumanining jan. qismida Turkiston tizmasi va
+                uning shimoli-gʻarbiy tarmogʻi — Molguzar togʻlari joylashgan
+                (eng baland joyi 2621 m). Molguzar togʻlari bilan Turkiston
+                tizmasi oraligʻida Sangzor vodiysi bor. Iqlimi keskin
+                kontinental. Yanvarning oʻrtacha temperaturasi —5° dan —9*
+                gacha, iyulniki 25°, togʻli qismida 15°. Yiliga oʻrtacha 300 —
+                750 mm yogʻin tushadi. Tuman hududida Saʼd Vaqqos ota bulogʻi
+                bor. Tuproqlari asosan toʻq tusli boʻz tuproqlar va togʻ
+                jigarrang tuproqlar, togʻ va baland tof dasht tulroqlari,
+                sharqida tipik boʻz tuproqlar tarqalgan.
+              </p>
+            </div>
+            <div class="tabs-div" id="ac">
+              <img src="./images/nurata.jpg" alt="rasm" class="about-image" />
+              <p class="about-text">
+                Hayvonot olamining betakror tabiati va rang-barangligidan
+                tashqari, sayyohlarni Nurota tizmasining o‘zi, qadimgi g‘or
+                rasmlari, Iskandar Zulqarnaynning o‘zi ekkanligi taxmin
+                qilinadigan Majrum soyi yaqinidagi ming yillik Sharqiy Biota
+                daraxti, Fozilman ko‘li, ekzotik tog‘li qishloqlar, Xonbandi
+                to‘g‘oni, Severtsev arxarlari qo‘riqxonasi sayyohlar orasida
+                katta qiziqish uyg‘otmoqda.Nurota qo‘riqxonasining boy va
+                rang-barang hayvonot olami sutemizuvchilarning 30 dan ortiq
+                turlarini o‘z ichiga oladi. Tog‘larda turkiston kalamushi, tosh
+                suvsar va Severtsev qo‘chqorlari yashaydi.
+              </p>
+            </div>
+            <div class="tabs-div" id="ac">
+              <img src="./images/somsa.jpg" alt="rasm" class="about-image" />
+              <p class="about-text">
+                Mazali, varaqi va mazali Jizzax somsa nafaqat mamlakatimizda,
+                balki butun Markaziy Osiyoda mashhurdir.“Jizzax somsa” – bu eng
+                mashhur va sevimli taom bo‘lib, Jizzax viloyatining timsoli
+                hamdir. Uning o‘ziga xos xususiyatidan yana biri – bu misli
+                ko‘rilmagan o‘lchamidir. Somsa ichi katta bo‘lak go‘sht, piyoz
+                va qo‘y yog‘i bo‘laklari bilan to‘ldirilgan varaqi xamirdan
+                iborat. Jizzax somsasining bittasi tushlik ovqatning o‘rnini
+                bosishi mumkin. Shunday qilib, agar siz mabodo ushbu o‘lkalarga
+                borsangiz, Jizzax somsalaridan tatib ko‘rishni unutmang. Yoqimli
+                ishtaha!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TABS ENDED -->
+
+      <!-- LOCATION STARTED -->
+      <div
+        class="location"
+        id="loc"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="container">
+          <h2 class="about-title fourth">Jizzax joylashuvi</h2>
+          <span class="linee"></span>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1558651.9404818658!2d66.42712618857766!3d40.270372589979594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b2ea58f711aca9%3A0xe18d916c84a0f4df!2sJizzakh%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1686750039109!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!-- LOCATION STARTED -->
+    </main>
+
+    <!-- FOOTER STARTED -->
+    <footer class="footer">
+      <p class="footer-title">
+        Copyright ©2023 All rights reserved | made by Bunyodbek
+      </p>
+    </footer>
+    <!-- FOOTER STARTED -->
+    <a href="#" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
